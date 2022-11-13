@@ -1,9 +1,13 @@
 package lesson1;
-
 public class Main {
     public static void main(String [] args){
-        System.out.println("Урок первый");
-        System.out.println("Hello world!");
-        System.out.println("LKJLKJ");
+        Car car1 = new Car();
+        Car car2 = new Car();
+
+        car1.color = "blue";
+        car2.color = "red";
+        System.out.println("I've poined the cars!!");
+        System.out.println("The color of car1 is " + car1.color);
+        System.out.println("The color of car2 is " + car2.color);
     }
 }
